@@ -12,8 +12,9 @@ Basic Installation
   - Download the finztrust.jar file.
   - Open Command-Prompt (for Window), then go to the finztrust.jar directory.
     example: C:\users\developer\finztrust>
-  - Run command in Command-Prompt: > java -jar finztrust.jar
+  - Run command in Command-Prompt: `> java -jar finztrust.jar`
  
   #### II. For Developer: ####
   - Download the project folder and import into Eclipse IDE
   - Run as Java Application
+## EXPLANATION ##
