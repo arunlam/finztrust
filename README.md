@@ -9,7 +9,7 @@ Finztrust Exercise - GithubAPI Console Application
 
 ### RUN THE PROGRAM ###
   #### I. For user: ####
-  - Download the finztrust.jar file.
+  - Download the [finztrust.jar](finztrust.jar) file .
   - Open Command-Prompt (for Window), then go to the finztrust.jar directory.
     `example: C:\users\developer\finztrust>`
   - Run command in Command-Prompt: `> java -jar finztrust.jar`
