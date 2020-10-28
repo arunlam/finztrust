@@ -2,10 +2,10 @@
 Finztrust Exercise - GithubAPI Console Application
 
 ### INSTALLATION ###
-Basic Installation
-  - It is required to download Java Runtime Environment (JRE) 8 or higher.
+- [x] Basic Installation
+    - It is required to download Java Runtime Environment (JRE) 8 or higher.
     You also can download from [here](https://drive.google.com/drive/folders/1ozz5YfijATTswzrxnfg78_c5IRwkNmOD?usp=sharing)
-  - Install the downloaded JRE.
+    - Install the downloaded JRE.
 
 ### RUN THE PROGRAM ###
   #### I. For user: ####
