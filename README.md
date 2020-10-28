@@ -1,5 +1,5 @@
-# finztrust
-Finztrust Exercise
+# Finztrust
+Finztrust Exercise - GithubAPI Console Application
 
 ### INSTALLATION ###
 Basic Installation
