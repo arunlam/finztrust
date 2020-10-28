@@ -19,7 +19,9 @@ This program does not store the data in the file system or hard disk.
  
   #### II. For Developer: ####
   - Download the project folder and import into Eclipse IDE
+  - In case of required library `java-json.jar` get an error, Right-click on project folder `Finztrust` -> `Properties` -> `Java Build Path` -> `Libraries` and then add External JARs from Finztrust/libs directory.
   - Run as Java Application
+  
   
 ## EXPLANATION ##
 Here is the [explanation](explanation.md)
