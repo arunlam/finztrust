@@ -22,7 +22,7 @@ com.finztrust.githubapi/
 
 `com.finztrust.githubapi/` 
 - **AppRun** Class: contains a main method to run the program. It allows to run program as a Console application (For Development Environment) or as a Production Environment. In this case, we run it as Console application.
-> ``` ViewBuilder.getView(Helpers.DEV_ENVIRONMENT).showView(); ```
+    - > ``` ViewBuilder.getView(Helpers.DEV_ENVIRONMENT).showView(); ```
 
 `com.finztrust.githubapi.views/`
 - **Viewable** interface: allows the View classes (ConsoleView or ProductView class) to implement the function `showView()`;
@@ -35,4 +35,4 @@ com.finztrust.githubapi/
 `com.finztrust.githubapi.models/`
 - **Users** class: a class represents the User Object to state and carry the data.
 - **UserDAO** class: a class is responsible to access data from a data source which can be database or any other storage mechanism.
-    - It contains functions to get data from [API Github User](https://api.github.com/users).
+    - It contains functions to download data and get detail of Github Users from [API Github User](https://api.github.com/users).
