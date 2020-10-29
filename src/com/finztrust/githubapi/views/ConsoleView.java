@@ -57,12 +57,18 @@ public class ConsoleView implements Viewable {
 				if (input.isEmpty())
 					continue;
 
-				if (Helpers.validateIneger(input) && users.containsKey(Integer.parseInt(input))) {
+				if (!Helpers.validateIneger(input)) {
+					Helpers.showMessage("ID is number ONLY!", "Please try the User ID within the list below:",
+							existingUserID);
+					continue;
+				}
+
+				if (users.containsKey(Integer.parseInt(input))) {
 					Helpers.showMessage("User ID (" + input + ") Details: ",
 							userDao.showUserDetail(Integer.parseInt(input)));
-
 				} else {
-					Helpers.showMessage("Please try the User ID within the list below:", existingUserID);
+					Helpers.showMessage("There is no User with ID you typed.",
+							"Please try the User ID within the list below:", existingUserID);
 				}
 
 			} catch (IOException e) {

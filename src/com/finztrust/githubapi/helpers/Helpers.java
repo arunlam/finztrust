@@ -24,7 +24,8 @@ public class Helpers {
 	// UTILITIES - Functions or Methods
 	public static boolean validateIneger(String input) {
 		try {
-			return Integer.parseInt(input) >= 0;
+			Integer.parseInt(input);
+			return true;
 		} catch (NumberFormatException e) {
 			// e.printStackTrace();
 			return false;
