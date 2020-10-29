@@ -44,3 +44,6 @@ com.finztrust.githubapi/
     - > In case of the version of the installed Java Runtime Environment (JRE) is 11 or higher, the program will allow the request by `HttpClientRequest` or `HttpUrlRequest`. However, JRE version is lower than version 11, then program will requeset by `HttpUrlRequest` class.
 - **HttpClientRequet** class: a class implements the `Connectable` interface to do `getRequest()` through the `HttpClient` which is suppported in Java 11 or higher.
 - **HttpUrlRequest** class: a class implements the `Connectable` interface to do `getRequest()` through the `HttpURLConnection` which is supported in Java 8.
+
+## Storing Data in memory ##
+To store the data, we create a `Users` class and a collection `HashMap<Integer, Users>`. Since `HashMap<K,V>` has an `Key/Value` pairs, we can store and access or search data in the large of User Objects by their Key.
