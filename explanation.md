@@ -1,5 +1,4 @@
-## EXPLANATION ##
-#### Technical Explanation ####
+## Technical Explanation ##
 **`Project Structure`**
 ```
 com.finztrust.githubapi/
@@ -19,4 +18,10 @@ com.finztrust.githubapi/
   - HttpUrlRequest.java
 - helers/
   - Helpers.java
+```
+
+`com.finztrust.githubapi/` 
+- **AppRun** Class: contains a main method to run the program. It allows to run program as a Console application (For Development Environment) or as a Production Environment. In this case, we run it as Console application.
+```
+ViewBuilder.getView(Helpers.DEV_ENVIRONMENT).showView();
 ```
