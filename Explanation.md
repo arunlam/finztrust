@@ -39,5 +39,7 @@ com.finztrust.githubapi/
 
 `com.finztrust.githubapi.connections/`
 - **Connectable** interface: allows the Connection classes to implement the function `getRequest()`.
-- **GithubApiConnection** class: is a static Singleton class for creating the connection to the resources such as API Github Users. And it is also a builder class that conntains `Connectable` type function to get request from `HttpClient` (Supported in Java 11 or higher) or `HttpURLConnection`. 
-- **HttpClientRequet** class: is 
+- **GithubApiConnection** class: is a Singleton class for creating the connection to the resources such as API Github Users. And it is also a builder class that conntains `Connectable` type function to get request from `HttpClient` (Supported in Java 11 or higher) or `HttpURLConnection`. 
+    - > We use these 2 classes (`HttpClientRequest` and `HttpUrlRequest`) as an example of choosing different data source connection like MySql, Microsoft SQL Server, or postgres and so on.
+- **HttpClientRequet** class: a class implements the `Connectable` interface to do `getRequest()` through the `HttpClient` which is suppported in Java 11 or higher.
+- **HttpUrlRequest** class: a class implements the `Connectable` interface to do `getRequest()` through the `HttpURLConnection` which is supported in Java 8.
