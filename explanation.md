@@ -31,3 +31,8 @@ com.finztrust.githubapi/
 
 `com.finztrust.githubapi.helpers/`
 - **Helpers** class: a utility class contains static strings, functions or methods that will be used frequently in the program such as message, url string, validation functions, and so on.
+
+`com.finztrust.githubapi.models/`
+- **Users** class: a class represents the User Object to state and carry the data.
+- **UserDAO** class: a class is responsible to access data from a data source which can be database or any other storage mechanism.
+    - It contains functions to get data from [API Github User](https://api.github.com/users).
